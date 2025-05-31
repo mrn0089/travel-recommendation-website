@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jet-Set-Go!</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #searchContainer {
+            visibility: hidden;
+        }
+        #team {
+            background-color: #ffffffba;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4rem;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        #team h2 {
+            font-size: 1.9rem;
+        }
+        .person {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            text-align: center;
+        }
+        .person p {
+            width: 16rem;
+        }
+        .person-role {
+            padding: 0.4rem;
+            background-color: rgba(103, 191, 201, 0.861);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Jet-Set-Go!</h1>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        <div id="searchContainer">
+            <input type="text" placeholder="Enter a destination or keyword">
+            <button>Search</button>
+            <button>Clear</button>
+        </div>
+    </nav>
+    <main>
+        <h1>About us</h1>
+        <p>Tired of tourist traps? So are we. At Jet Set Go!, our team is passionate about delivering travel recs curated for wanderers who want more than just the same five sights.</p>
+        <div id="team">
+            <h2 style="text-align: center;">Our<br>Team</h2>
+            <div class="person">
+                <h3 class="person-name">Jane Doe</h3>
+                <p class="person-description">Jane Doe is responsible for...</p>
+                <p class="person-role">Founder & CEO</p>
+            </div>
+            <div class="person">
+                <h3 class="person-name">John Doe</h3>
+                <p class="person-description">John Doe is responsible for...</p>
+                <p class="person-role">Chief Technology Officer</p>
+            </div>
+            <div class="person">
+                <h3 class="person-name">Hanna Smith</h3>
+                <p class="person-description">Hanna Smith is responsible for...</p>
+                <p class="person-role">Social Media Marketing</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
